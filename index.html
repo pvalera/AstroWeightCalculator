@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="index.js"> </script>
+
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+<body>
+  <!-- <h1 id="newtitle"></h1>
+  <title>rotaluclaC thgieW ortsA</title> -->
+  <h1> Astro Weight Calculator </h1>
+  <p> </p>
+
+  <div class="labelgroup">
+    <label class="labelWeight" for="yourWeight">Your Weight</label>
+    <label class="labelPlanet" for="selectPlanet">Select a Planet</label>
+  </div>
+  <p> </p>
+
+  <input class="inputWeight" id="yourWeight" type="number">
+
+  <select class="selectPlanet" id="selectPlanet" selectPlanet="select">
+    <option value='Sun'selected>Sun</option>
+    <option value='Mercury'>Mercury</option>
+    <option value='Venus'>Venus</option>
+    <option value='Earth'>Earth</option>
+    <option value='Moon'>Moon</option>
+    <option value='Mars'>Mars</option>
+    <option value='Jupiter'>Jupiter</option>
+    <option value='Saturn'>Saturn</option>
+    <option value='Uranus'>Uranus</option>
+    <option value='Neptune'>Neptune</option>
+    <option value='Pluto'>Pluto</option>
+  </select>
+
+  <button class="buttonPlanet" id="calculate" onclick="clickCalculate()">Calculate</button>
+
+  <p class="results" id="results"></p>
+ </body>
+
+</html>
